@@ -1,117 +1,32 @@
 # Stock Market Price Prediction
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+## Setup Instructions
 
-## Introduction
-This project aims to predict stock market prices using various machine learning algorithms. It analyzes historical stock data to make predictions about future stock prices.
-
-## Features
-- Data preprocessing and cleaning
-- Feature engineering
-- Model training and evaluation
-- Visualization of results
-- Support for multiple machine learning algorithms
-
-## Installation
-To get started with this project, follow the steps below:
-
-1. Clone the repository:
+1. **Clone the repository**:
    ```sh
    git clone https://github.com/Anshulsm12/Stock-Market_Price-Prediction.git
    cd Stock-Market_Price-Prediction
    ```
 
-2. Create a virtual environment and activate it:
+2. **Create and activate a virtual environment**:
    ```sh
    python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   # On Windows
+   venv\Scripts\activate
+   # On macOS/Linux
+   source venv/bin/activate
    ```
 
-3. Install the required dependencies:
+3. **Install dependencies**:
    ```sh
    pip install -r requirements.txt
    ```
 
-## Usage
-To run the project, follow these steps:
-
-1. Prepare your dataset and ensure it is in the correct format.
-2. Configure the parameters in the configuration file (if any).
-3. Execute the main script to start the prediction process:
+4. **Run the Streamlit app**:
    ```sh
-   python main.py
+   streamlit run prediction1.py
    ```
 
-## Contributing
-We welcome contributions to this project. Please see the [CONTRIBUTING](CONTRIBUTING.md) file for guidelines on how to contribute.
+## Project Description
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
-
-## Contact
-For any questions or inquiries, please contact [Anshul](mailto:anshulsm2802@gmail.com).# Stock Market Price Prediction
-
-## Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
-## Introduction
-This project aims to predict stock market prices using various machine learning algorithms. It analyzes historical stock data to make predictions about future stock prices.
-
-## Features
-- Data preprocessing and cleaning
-- Feature engineering
-- Model training and evaluation
-- Visualization of results
-- Support for multiple machine learning algorithms
-
-## Installation
-To get started with this project, follow the steps below:
-
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/Anshulsm12/Stock-Market_Price-Prediction.git
-   cd Stock-Market_Price-Prediction
-   ```
-
-2. Create a virtual environment and activate it:
-   ```sh
-   python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-   ```
-
-3. Install the required dependencies:
-   ```sh
-   pip install -r requirements.txt
-   ```
-
-## Usage
-To run the project, follow these steps:
-
-1. Prepare your dataset and ensure it is in the correct format.
-2. Configure the parameters in the configuration file (if any).
-3. Execute the main script to start the prediction process:
-   ```sh
-   python main.py
-   ```
-
-## Contributing
-We welcome contributions to this project. Please see the [CONTRIBUTING](CONTRIBUTING.md) file for guidelines on how to contribute.
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
-
-## Contact
-For any questions or inquiries, please contact [Anshul](mailto:your-email@example.com).
+This project predicts stock market prices using machine learning models. The main script `prediction1.py` fetches stock data, preprocesses it, trains a model, and makes predictions which are visualized using Streamlit.
